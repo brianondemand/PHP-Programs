@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Uploader</title>
+  </head>
+  <body>
+    <h2>Upload a File</h2>
+
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+
+      <input type="file" name="uploaded_file" /><br /><br />
+      
+      <input type="submit" value="Upload File" />
+
+    </form>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+enctype="multipart/form-data": required to send file data.
+
+action="upload.php": sends the form data to this PHP file.
+
+name="uploaded_file": this is used in PHP to access the file. 
+-->
